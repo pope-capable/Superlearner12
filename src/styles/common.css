@@ -1,0 +1,236 @@
+/* styles for one team card */
+
+.otc {
+    border-radius: 10px;
+    background-color: #dddbda;
+    margin: 20px 0;
+    padding: 10px;
+    border-width:0 0 0 12px;
+    border-style: solid;
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+}
+
+.ptc {
+    border-radius: 10px;
+    background-color: #DDE7F0;
+    margin: 20px 0;
+    padding: 10px;
+    border-width:0 0 0 12px;
+    border-color: #59729A;
+    border-style: solid;
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+    display: flex;
+    
+}
+
+.ptq{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: #DDE7F0;
+    margin: 20px 0;
+    padding: 10px;
+    border-width:0 0 0 12px;
+    border-color: #59729A;
+    border-style: solid;
+    width: 100%;
+    min-height: 100px;
+}
+
+.reason {
+    font-size: 12px;
+}
+
+.ptc-c {
+    border-radius: 10px;
+    background-color: #b5f5ec;
+    margin: 20px 0;
+    padding: 10px;
+    border-width:0 0 0 12px;
+    border-color: #00474f;
+    border-style: solid;
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+    text-align: left;
+    display: flex;
+}
+
+.ptc-f {
+    border-radius: 10px;
+    background-color: #ffccc7;
+    margin: 20px 0;
+    padding: 10px;
+    border-width:0 0 0 12px;
+    border-color: #820014;
+    border-style: solid;
+    width: 100%;
+    min-height: 100px;
+    text-align: left;
+    text-align: left;
+    display: flex;
+}
+
+.team-name {
+    font-size: 24px;
+}
+
+.enter-icon {
+    float: right;
+    width: 50px;
+    right: 70px;
+    cursor: pointer;
+}
+
+.dpp-view {
+    height: 100%;
+    margin: 50px 200px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.dpp-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dpp-action {
+    padding: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b6b6b6;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.dpp-action-img {
+    width: 20px;
+    margin-top: 0px;
+    margin-right: 0px;
+    float: right;
+}
+
+.dpp-row{
+    margin: 40px 0;
+}
+
+.dpp-sf {
+    cursor: pointer;
+}
+
+.neg-sd {
+    padding: auto;
+    background-color: #ADC9EC;
+    border-radius: 5px 0 0 5px;
+    width: 40px;
+    max-height: 40px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.pos-sd {
+    padding: auto;
+    background-color: #ADC9EC;
+    border-radius: 0 5px 5px 0;
+    width: 40px;
+    max-height: 40px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+.display-sd {
+    padding: auto;
+    background-color: #DDE7F0;
+    border-radius: 0;
+    width: 40px;
+    max-height: 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.dpp-sd {
+    font-size: 16px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.dpp-roll {
+    max-width: 120px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0
+}
+
+.dpp-pom {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.proceed-button-2 {
+    width: 100%;
+    padding: 5px;
+    color: #000000;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    border: 0px ;
+    padding: 5px;
+    font-size: 14px;
+    margin: 20px 30px 0 0;
+    cursor: pointer;
+    max-width: 100px;
+    margin-left: -120px ;
+    float: right;
+}
+
+.predict-button {
+    width: 100%;
+    /* padding: 5px; */
+    color: #ffffff;
+    background-color: #59729A;
+    border-radius: 7px;
+    border: 0px ;
+    padding: 5px;
+    font-size: 14px;
+    /* margin: 20px 30px 0 0; */
+    cursor: pointer;
+    max-width: 100px;
+    min-width: 100px;
+    float: right;
+}
+
+.process {
+    width: 100%;
+    margin: 20px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #b6b6b6;
+    padding: 20px;
+}
+
+.switch-model-view{
+    right: 0px;
+    margin-right: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+.hold-enter {
+    float: right;
+    width: 20%;
+}
+
+.hold-project-data {
+    width:  80%;
+}

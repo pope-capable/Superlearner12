@@ -1,0 +1,283 @@
+.page {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 100%;
+}
+
+.project-view {
+    margin: 50px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 25%;
+}
+
+.view-header {
+    text-align: left;
+    display: flex;
+}
+
+.create-new {
+    float: right;
+    font-size: 16px;
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+
+.project-empty {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.empty-content {
+    margin: auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.middle {
+    width: 70px;
+}
+
+.middle-small {
+    width: 30px;
+}
+
+.project-create-view {
+    margin: 20px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.activity-title {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 10px;
+}
+
+.activity-title-mid {
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px; */
+}
+
+.activity-title-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.flag {
+    width: 30px;
+    margin: 0 20px ;
+}
+
+
+.ant-carousel {
+    text-align: center;
+    box-sizing:border-box;
+    max-width: inherit;
+    overflow: auto;
+  }
+
+.hold-caro{
+    max-width: 100%;
+    background-color: rgb(122, 122, 122);
+    height: 100%;
+    display: flex;
+  }
+
+.ant-carousel .slick-slider {
+    height: 100%;
+
+}
+
+.ant-carousel .slick-dots li button {
+    background: #6C92BE;
+    opacity: 0.4;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+    opacity: 1;
+    background: #6C92BE;
+}
+
+.custom-input {
+    background-color: #DDDDEE;
+    border-radius: 0 5px 5px 0;
+    min-height: 35px;
+    border: 0px;
+    max-width: 500px;
+    color: #59729A;
+    padding: 10px;
+}
+
+.custom-textarea {
+    background-color: #DDDDEE;
+    border-radius: 0 0 5px 5px;
+    min-height: 300px;
+    border: 0px;
+    max-width: 600px;
+    color: #59729A;
+    padding: 10px;
+}
+
+.custom-textarea:focus {
+    border-width: 0 0 1px 0;
+    -webkit-appearance: none;
+    outline-width: 0;
+}
+
+.input-tag {
+    background-color: #59729A;
+    padding: 5px;
+    max-height: 35px;
+    color: #ffffff;
+    border-radius: 5px 0 0 5px;
+    width: 100px;
+}
+
+.input-tag-textarea {
+    background-color: #59729A;
+    padding: 5px;
+    max-height: 500px;
+    color: #ffffff;
+    border-radius: 5px 5px 0 0;
+    width: 600px;
+}
+
+.proceed-button {
+    width: 100%;
+    padding: 5px;
+    color: #000000;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    border: 0px ;
+    padding: 5px;
+    font-size: 14px;
+    margin: 20px 30px 0 0;
+    cursor: pointer;
+    max-width: 100px;
+    margin-left: -120px ;
+}
+
+.project-summary {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.summary-row {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-description{
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+    overflow: scroll;
+}
+
+.process-entrance {
+    background-color: #726159;
+    border-radius: 20px;
+    float: right;
+    width: 30%;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    flex-direction: column;
+    color: #DADADA;
+    cursor: pointer;
+}
+
+.folders {
+    border-radius: 10px;
+    width: 70%;
+    box-shadow: 10px 10px 50px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.access {
+    border-radius: 10px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+
+    box-shadow: 10px 10px 50px 1px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.system-folder {
+    border-radius: 5px;
+    background-color: #e1e9f277;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.user-folder {
+    border-radius: 5px;
+    background-color: #fde0aa7a;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.folders-view {
+    width: 40%;
+    border-width: 0 1px 0 0;
+    border-style: solid;
+    border-color: #b6b6b6;
+    padding: 10px;
+    margin: 0 10px 0 0;
+
+}
+
+.c-folder {
+    width: 20px;
+    margin-right: 20px;
+}
+
+.frequent-view {
+    width: 60%;
+    overflow: scroll;
+}
+
+.frequent-view-content {
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+}
+
+.mascot {
+    max-width: 250px;
+}
+
+.llo {
+    padding: auto;
+    height: 100%;
+}
+
+.over-head {
+    font-size: 20px;
+}

@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../assets/fonts/Raleway/Raleway-Medium.ttf") format("opentype");
+  }
+
+.home {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.section-1 {
+    margin: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: left;
+
+}
+
+.super {
+    font-size: 40px;
+    font-family: Raleway;
+    margin: 0 0 50px 0;
+}
+
+.advantage {
+    color: #797979;
+    margin: 0 0 30px 0;
+
+}
+
+.get-started {
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    border: 0px solid #1F3D51;
+    color: var(--secondary-color1);
+    padding: 5px;
+    font-size: 14px;
+    margin: 20px 30px 0 0;
+    cursor: pointer;
+    width: 150px;  
+}
+
+/* second section */
+
+.section-2 {
+    border: #D2D2D2;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.one-application {
+    width: 25%;
+}
+
+.application-title {
+    font-size: 20px;
+    color: #9DA2A9;
+
+}
+
+.application-text {
+    text-align: left;
+    color: #797979;
+    margin: 50px;
+}
+
+.at-img {
+    width: 200px;
+}
+
+/* section 3 */
+
+.section-3 {
+    border: #D2D2D2;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 250px;
+}
+
+.graph {
+    width: 500px;
+    margin: 0 100px ;
+}
+
+.report {
+    font-size: 30px;
+    text-align: left;
+    padding: 0 0 30px 0;
+}
+
+.report-meaning {
+    text-align: left;
+    padding: 0 0 30px 0;
+    color: #797979;
+}

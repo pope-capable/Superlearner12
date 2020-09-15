@@ -1,0 +1,44 @@
+.hold-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.project-mile {
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    box-shadow: 10px 0 50px -1px rgba(0, 0, 0, 0.1);
+    flex: 1 0 21%;
+    display: flex;
+    transition: transform .4s;
+}
+
+.project-mile:hover {
+    transform: scale(1.2);
+    background-color: #fde0aa7a;
+  }
+
+.fold-image {
+    width: 50px;
+
+}
+
+.fold-tile {
+    width: 30%;
+}
+
+.fold-tile-detail {
+    width: calc(70% - 20px);
+}
+
+.folder-name {
+    font-size: 20px;
+}
+
+.fold-ceat {
+    font-size: 10px;
+}

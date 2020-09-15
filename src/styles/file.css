@@ -1,0 +1,32 @@
+.one-file {
+    flex: 0 29%;
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #b6b6b6;
+    box-shadow: 10px 10px 50px 1px rgba(94, 68, 68, 0.15);
+    margin: 10px;
+    height: 50%;
+    max-width: 220px;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.file-details {
+    background-color: #C4C4C4;
+    width: 100%;
+    color: #ffffff;
+}
+
+.file-details-2 {
+    background-color: #08979c;
+    width: 100%;
+    color: #ffffff;
+}
+
+.file-download {
+    width: 20px;
+    margin: 10px;
+    float: right;
+    cursor: pointer;
+}

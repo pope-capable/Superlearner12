@@ -1,0 +1,104 @@
+.sideBar {
+    min-width: 20%;
+    max-width: 23%;
+    height: 100%;
+    padding: 20px;
+    margin: 0 30px 0 0;
+    box-shadow: 10px 0 50px -1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.user_details {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.user-row {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 ;
+}
+
+.avatar {
+    margin: 0 20px 0 0;
+}
+
+.user-row-short {
+    width: 100%;
+    text-align: left;
+}
+
+.mem-lab {
+    font-size: 14px;
+    color: #616161;
+    text-align: left;
+}
+
+.mem-data {
+    font-size: 12px;
+    color: #BABABA;
+    text-align: right;
+}
+
+.lower-side {
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sections {
+    padding: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 80px;
+}
+
+.img {
+    max-width: 30px;
+}
+
+.active {
+    margin: 20px 0;
+}
+
+.inactive {
+    margin: 20px 0;
+    opacity: 0.4;
+}
+
+.project-note {
+    background-color: #FDE0AA;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.team-note {
+    background-color: #E1E9F2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.log-out {
+    width: 20px;
+    float: right;
+}
+
+.sn-bottom {
+    position: absolute;
+    bottom: 20px;
+    top: auto;
+    left: 350px;
+    cursor: pointer;
+}
+
+.logout {
+    max-width: 100px;
+    float: right;
+    cursor: pointer;
+}
